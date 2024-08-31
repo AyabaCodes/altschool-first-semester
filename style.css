@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: lightblue;
+}
+
+.header-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 50rem;
+  text-align: center;
+}
+h1,
+p {
+  margin: 10px;
+}
+
+p {
+  font-size: 1.45em;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+@media (max-width: 1024px) {
+  .header-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
