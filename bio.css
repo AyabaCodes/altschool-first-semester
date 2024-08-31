@@ -34,13 +34,18 @@ ul.link-items {
   margin: 25px 0;
   border-bottom: 1px solid rgb(207, 205, 205);
 }
-
+p a {
+  text-decoration: none;
+  color: gray;
+  
+}
 li.link-item a {
   text-decoration: none;
   color: gray;
   padding: 0 30px;
 }
-li.link-item a:hover {
+li.link-item a:hover,
+p a:hover {
   color: black;
 }
 
